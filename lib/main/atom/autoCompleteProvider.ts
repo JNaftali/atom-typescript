@@ -28,7 +28,7 @@ export class AutocompleteProvider implements Provider {
   disableForSelector = ".comment"
 
   inclusionPriority = 3
-  suggestionPriority = 3
+  suggestionPriority = atom.config.get("atom-typescript.autocompletionSuggestionPriority")
   excludeLowerPriority = false
 
   private clientResolver: ClientResolver

@@ -200,6 +200,11 @@ export var config = {
     type: "boolean",
     default: true,
   },
+  autocompletionSuggestionPriority: {
+    description: "Snippets etc have priority of 1. Requires Atom restart",
+    type: "integer",
+    default: 3,
+  },
 }
 
 export async function getProjectConfigPath(sourcePath: string): Promise<string> {

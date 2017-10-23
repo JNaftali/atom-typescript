@@ -168,6 +168,11 @@ exports.config = {
         type: "boolean",
         default: true,
     },
+    autocompletionSuggestionPriority: {
+        description: "Snippets etc have priority of 1. Requires Atom restart",
+        type: "integer",
+        default: 3,
+    },
 };
 function getProjectConfigPath(sourcePath) {
     return tslib_1.__awaiter(this, void 0, void 0, function* () {
