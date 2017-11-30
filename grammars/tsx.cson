@@ -998,7 +998,7 @@ repository:
         include: "#array-literal"
       }
       {
-        name: "meta.definition.method.tsx entity.name.function.tsx"
+        name: "meta.definition.method.entity.name.function.tsx"
         match: "[_$[:alpha:]][_$[:alnum:]]*"
       }
       {
